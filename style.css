@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'visitor';
-    src: url('visitor.ttf');
+    src: url('./visitor.ttf');
 }
 
 
@@ -143,7 +143,7 @@ body {
 *=================*/
 .us {
   position: absolute;
-  bottom: 200px;
+  bottom: 20%;
   left: 50%;
   margin-left: -50%;
   text-align: center;

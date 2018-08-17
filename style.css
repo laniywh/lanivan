@@ -16,14 +16,22 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   background: #fdd835;
   color: white;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-  width: 100%;
-  margin: 5px;
+  /* width: 100%; */
+  /* margin: 5px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*=================
@@ -32,12 +40,6 @@ body {
 .timer {
   width: 360px;
   height: 248px;
-  display: block;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  margin-left: -180px;
-  margin-top: -124px;
   color: white;
 }
 .timer * {
@@ -139,10 +141,7 @@ body {
 /*=================
 * IMAGE OF US
 *=================*/
-.us {
-  position: absolute;
-  bottom: 20%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+
+#us-img {
+  width: 90%;
 }

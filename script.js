@@ -6,7 +6,7 @@ initTimer();
 var timerEl = document.querySelector('.timer');
 
 // set the date we're counting down to
-var target_date = new Date("Aug 27, 2017").getTime();
+var target_date = new Date("Aug 27, 2018").getTime();
 
 // variables for time units
 var days, hours, minutes, seconds;

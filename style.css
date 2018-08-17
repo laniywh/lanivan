@@ -1,13 +1,12 @@
 @font-face {
-    font-family: 'visitor';
-    src: url('./visitor.ttf');
+  font-family: "visitor";
+  src: url("./visitor.ttf");
 }
-
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'visitor', sans-serif;
+  font-family: "visitor", sans-serif;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -18,7 +17,7 @@
 }
 
 body {
-  background: #FDD835;
+  background: #fdd835;
   color: white;
 }
 
@@ -137,19 +136,13 @@ body {
   line-height: 11px;
 }
 
-
 /*=================
 * IMAGE OF US
 *=================*/
 .us {
   position: absolute;
   bottom: 20%;
-  left: 50%;
-  margin-left: -50%;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-
-.us img {
-  width: 90%;
-}
-
